@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="WESTBERG Fashion Store Prototype - Designed for Everyday Adventures"
+    />
+    <title>WESTBERG Fashion Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#home" aria-label="WESTBERG Startseite">WESTBERG</a>
+      <button class="nav-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <a href="#home">Home</a>
+        <a href="#category/herren">Herren</a>
+        <a href="#category/damen">Damen</a>
+        <a href="#collection">Kollektion</a>
+        <a href="#about">Über Uns</a>
+        <a href="#contact">Kontakt</a>
+        <a class="cart-link" href="#cart" aria-label="Warenkorb öffnen">
+          Warenkorb <span id="cartCount">0</span>
+        </a>
+      </nav>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer class="footer">
+      <div>
+        <a class="footer-brand" href="#home">WESTBERG</a>
+        <p>Designed for Everyday Adventures</p>
+      </div>
+      <div class="footer-links">
+        <a href="#category/herren">Herren</a>
+        <a href="#category/damen">Damen</a>
+        <a href="#collection">Kollektion</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+    </footer>
+
+    <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
