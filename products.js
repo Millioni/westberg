@@ -13,7 +13,7 @@ const WESTBERG_PRODUCTS = [
     images: ["assets/jeans-long-model.png", "assets/jeans-long-product.png"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     colors: [{ name: "Light Denim", value: "#9fbfe0" }],
-    material: "100% Baumwoll-Denim",
+    material: "60% recyceltes Plastik, 40% recycelte Kleidung",
     stock: 18,
   },
   {
@@ -26,7 +26,7 @@ const WESTBERG_PRODUCTS = [
     images: ["assets/jeans-short-model.png", "assets/jeans-short-product.png"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     colors: [{ name: "Light Denim", value: "#a6c6e5" }],
-    material: "100% Baumwoll-Denim",
+    material: "60% recyceltes Plastik, 40% recycelte Kleidung",
     stock: 22,
   },
   {
@@ -39,7 +39,7 @@ const WESTBERG_PRODUCTS = [
     images: ["assets/tshirt-model.jpeg", "assets/tshirt-front.jpeg", "assets/tshirt-back.jpeg"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     colors: [{ name: "White", value: "#f7f7f3" }],
-    material: "100% gekaemmte Baumwolle",
+    material: "60% recyceltes Plastik, 40% recycelte Kleidung",
     stock: 35,
   },
   {
@@ -52,7 +52,7 @@ const WESTBERG_PRODUCTS = [
     images: ["assets/joggers.png"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     colors: [{ name: "Sky Blue", value: "#9fd0ff" }],
-    material: "80% Baumwolle, 20% Polyester",
+    material: "60% recyceltes Plastik, 40% recycelte Kleidung",
     stock: 24,
   },
   {
@@ -65,7 +65,7 @@ const WESTBERG_PRODUCTS = [
     images: ["assets/hoodie.png"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     colors: [{ name: "Sky Blue", value: "#9fd0ff" }],
-    material: "80% Baumwolle, 20% Polyester",
+    material: "60% recyceltes Plastik, 40% recycelte Kleidung",
     stock: 17,
   },
   {
@@ -78,7 +78,7 @@ const WESTBERG_PRODUCTS = [
     images: ["assets/tracksuit-model.png", "assets/hoodie.png", "assets/joggers.png"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     colors: [{ name: "Sky Blue", value: "#9fd0ff" }],
-    material: "80% Baumwolle, 20% Polyester",
+    material: "60% recyceltes Plastik, 40% recycelte Kleidung",
     stock: 12,
   },
   {
@@ -96,7 +96,7 @@ const WESTBERG_PRODUCTS = [
       { name: "White", value: "#f6f6f1", image: "assets/cap-white.png" },
       { name: "Black", value: "#111111", image: "assets/cap-black.png" },
     ],
-    material: "100% Baumwoll-Twill",
+    material: "60% recyceltes Plastik, 40% recycelte Kleidung",
     stock: 40,
   },
 ];
