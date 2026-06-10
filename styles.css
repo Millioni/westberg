@@ -285,6 +285,19 @@ h3 {
   color: #fff;
 }
 
+.btn-alternate {
+  border-color: #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.btn-alternate:hover,
+.btn-alternate:focus-visible {
+  border-color: #fff;
+  background: #fff;
+  color: var(--navy);
+}
+
 .btn-full {
   width: 100%;
 }
