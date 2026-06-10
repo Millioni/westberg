@@ -120,7 +120,7 @@ function renderHome() {
         <p class="muted">WESTBERG verbindet cleane Farben, komfortable Fits und moderne Streetwear-Details.</p>
         <div class="action-row">
           <a class="btn" href="#category/herren">Herren</a>
-          <a class="btn btn-secondary" href="#category/damen">Damen</a>
+          <a class="btn btn-alternate" href="#category/damen">Damen</a>
         </div>
       </div>
     </section>
