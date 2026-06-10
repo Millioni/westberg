@@ -1,13 +1,13 @@
 /*
-  Zentrale Produktdaten fuer WESTBERG.
-  Neue Produkte koennen hier ergaenzt werden, ohne HTML-Markup anzufassen.
+  Zentrale Produktdaten für WESTBERG.
+  Neue Produkte können hier ergänzt werden, ohne HTML-Markup anzufassen.
 */
 const WESTBERG_PRODUCTS = [
   {
     id: "jeanshose-lang",
     name: "WESTBERG Jeanshose lang",
     price: 79.99,
-    description: "Weit geschnittene Denim-Hose in hellem Blue-Wash fuer entspannte City-Looks.",
+    description: "Weit geschnittene Denim-Hose in hellem Blue-Wash für entspannte City-Looks.",
     category: "herren",
     image: "assets/jeans-long-model.png",
     images: ["assets/jeans-long-model.png", "assets/jeans-long-product.png"],
@@ -20,7 +20,7 @@ const WESTBERG_PRODUCTS = [
     id: "jeanshose-kurz",
     name: "WESTBERG Jeanshose kurz",
     price: 49.99,
-    description: "Bermuda-Shorts mit geradem Bein, cleanem Finish und sommerlichem Denim-Gefuehl.",
+    description: "Bermuda-Shorts mit geradem Bein, cleanem Finish und sommerlichem Denim-Gefühl.",
     category: "herren",
     image: "assets/jeans-short-model.png",
     images: ["assets/jeans-short-model.png", "assets/jeans-short-product.png"],
@@ -72,7 +72,7 @@ const WESTBERG_PRODUCTS = [
     id: "jogginganzug",
     name: "WESTBERG Jogginganzug",
     price: 119.99,
-    description: "Matching Set aus Hoodie und Jogginghose fuer einen abgestimmten Everyday-Look.",
+    description: "Matching Set aus Hoodie und Jogginghose für einen abgestimmten Everyday-Look.",
     category: "unisex",
     image: "assets/tracksuit-model.png",
     images: ["assets/tracksuit-model.png", "assets/hoodie.png", "assets/joggers.png"],
@@ -85,7 +85,7 @@ const WESTBERG_PRODUCTS = [
     id: "cap",
     name: "WESTBERG Cap",
     price: 24.99,
-    description: "Klassische Dad Cap mit hochwertiger Stickerei, verfuegbar in vier Farbvarianten.",
+    description: "Klassische Dad Cap mit hochwertiger Stickerei, verfügbar in vier Farbvarianten.",
     category: "accessoires",
     image: "assets/cap-beige.png",
     images: ["assets/cap-beige.png", "assets/cap-blue.png", "assets/cap-white.png", "assets/cap-black.png"],
